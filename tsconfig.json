@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "rootDir": "src",
+        "strict": true,
+        "module": "CommonJS",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "typeRoots": ["./src/types/global.d.ts", "./node_modules/@types"],
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*.ts", "types.d.ts", "bot.ts"],
+    "files": ["./src/types/global.d.ts"]
+}

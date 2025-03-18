@@ -1,0 +1,9 @@
+/node_modules
+
+
+#debug
+yarn-debug.log*
+
+*.tsbuildinfo
+
+.env
