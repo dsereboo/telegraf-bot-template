@@ -1,8 +1,10 @@
 /node_modules
 
+/dist
 
 #debug
 yarn-debug.log*
+yarn-error.log*
 
 *.tsbuildinfo
 
